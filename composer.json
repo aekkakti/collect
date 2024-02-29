@@ -1,0 +1,24 @@
+{
+    "name": "aekkakti/collect",
+    "description": "Module for working with arrays",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aekkakti",
+            "email": "music.tomsk1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
